@@ -9,15 +9,3 @@
 /*******************************/
 /*  About Page Specific Styles */
 /*******************************/
-
-/* Biography Picture - float pic, rounded corners */
-#biopic {
-    border: 1px solid #ddd;
-    border-radius: 25px;
-}
-
-/* Duck Picture - float pic, rounded corners, */
-#duckpic {
-    border: 1px solid #ddd;
-    border-radius: 25px;
-}
