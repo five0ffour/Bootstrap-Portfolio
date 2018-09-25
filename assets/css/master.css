@@ -27,3 +27,16 @@ body {
 .body-container {
     margin: 20px auto ;
 }
+
+/* Default font for all headers */
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+/* horizonal rule - thick gray bar */
+hr {
+    height: 2px;
+    background-color: #cccccc;
+    border: 0;
+}

@@ -1,0 +1,40 @@
+/* Author:  Michael Galarneau                                                  */
+/* Class:  UNH Bootcamp                                                        */
+/* Assignment:  Responsiveness Assignment                                      */
+/* Date:  09/22/2018                                                           */
+/*                                                                             */                  
+/* File:  contact.css                                                          */
+/* Description:  Manage the style elements specific to the Portfolio page      */
+
+/***********************************/
+/* Portfolio Page Specific Styles  */
+/***********************************/
+
+#gallery li {
+    position: relative;
+    list-style: none;
+    float: left;
+    margin: 30px;
+}
+
+/* Give all the buttons the same appearance and dimensions */
+.btnimg {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    border: 1px solid #777;
+}
+
+/* Floating label over the button images */
+.card-title {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 198px;
+    margin: 0;
+
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
