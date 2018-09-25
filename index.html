@@ -1,34 +1,52 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <title>Galarneau Bio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/master.css">
 </head>
 
 <body>
-
     <!-- Header / Navigation -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Michael Galarneau</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background:#ffffff; border-color:#666666">
+
+            <!-- Logo -->
+            <div class="navbar-header  justify-content-end">
+                <a class="navbar-brand" style="background:#45aaa5; color:#ffffff" href="#">Michael Galarneau</a>
+            </div>
+
+            <!-- Toggler Menu -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- Menu Items -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link active" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -36,7 +54,8 @@
     </header>
 
     <!-- Main Body -->
-    <div class="container">
+    <div class="container body-container" style="background:white; color:#777777;">
+
         <div class="row">
             <div class="col-lg-12">
                 <h1>About Me</h1>
@@ -45,20 +64,25 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-xs-12 col-lg-3">
                 <!-- Profile Image here -->
-                <img src="assets/images/mike.jpg" width="200" length="200">
+                <img src="assets/images/mike.jpg" class="rounded" class="img-fluid" width="200" length="200">
             </div>
 
-            <div class="col-lg-9">
-                <p>I go by "Mike" to most. I was born in upstate New York as the youngest of five children: one sister
-                    and three older brothers. Although we are a bit geographically dispersed now, we are all still very
-                    close. I am an identical twin. And to answer your questions: "yes we do look alike", "he is,
+            <div class="col-xs-12 col-lg-9">
+                <p>I go by "Mike" to most. I was born in upstate New York as the youngest of five children: one
+                    sister
+                    and three older brothers. Although we are a bit geographically dispersed now, we are all
+                    still very
+                    close. I am an identical twin. And to answer your questions: "yes we do look alike", "he
+                    is,
                     by three minutes" and >"no we don't feel each other's pain... usually!." Although I did
                     confuse him with myself once, but that is a story for another day.</p>
 
-                <p>I was raised in Connecticut where I met my beautiful wife and moved to New Hampshire where we are
-                    raising three wonderful kids. We have a small cockapoo named "Cassie" that chimes in at about 115
+                <p>I was raised in Connecticut where I met my beautiful wife and moved to New Hampshire where
+                    we are
+                    raising three wonderful kids. We have a small cockapoo named "Cassie" that chimes in at
+                    about 115
                     decibels when exicited... which is often. I am fortunate to say that even though it takes
                     hard work, I am blessed to be living the American dream.
                 </p>
@@ -66,48 +90,58 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-9">
-                <p>I have a degree in Computer Science from Central Connecticut State University back when the PC was
-                    the big technology disrupter, people were trying to figure out what that relational database thing
-                    was all about and knowing C/Unix was considered edgy. I programmed embedded systems for factory
-                    automation equipment, and moved on to embedded financial calculators for insurance companies. I
-                    work for <a href="https://www.cigna.com/" target="_blank">Cigna Healthcare</a> as an Enterprise
-                    Architect helping to create an omni-channel experience for our customers. It's another way of
+            <div class="col-xs-12 col-lg-9">
+                <p>I have a degree in Computer Science from Central Connecticut State University back when the
+                    PC was
+                    the big technology disrupter, people were trying to figure out what that relational
+                    database thing
+                    was all about and knowing C/Unix was considered edgy. I programmed embedded systems for
+                    factory
+                    automation equipment, and moved on to embedded financial calculators for insurance
+                    companies. I
+                    work for <a href="https://www.cigna.com/" target="_blank">Cigna Healthcare</a> as an
+                    Enterprise
+                    Architect helping to create an omni-channel experience for our customers. It's another way
+                    of
                     saying we're building
-                    self service channels and keeping our customer service agents from ever having ask a caller: "Would
+                    self service channels and keeping our customer service agents from ever having ask a
+                    caller: "Would
                     you
                     read that [letter/email/sms] to me?"
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-xs-12 col-lg-3">
                 <!-- Ducky image here-->
-                <img src="assets/images/duck.jpg" width="200" length="200">
+                <img src="assets/images/duck.jpg" class="rounded" class="img-fluid" width="200" length="200">
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <p>When I have a few minute of spare time, if I'm not chauffering kids or taking care of the house,
+                <p>When I have a few minute of spare time, if I'm not chauffering kids or taking care of the
+                    house,
                     I enjoy a variety of activities: <em>"glamping"</em> with family and friends (it used to be
-                    winter camping I swear!), hiking, genealogy, video/board gaming and am the quartermaster for a
-                    local swim club concession. I sometimes dabble in crafty hobbies such as mailling, ring making,
+                    winter camping I swear!), hiking, genealogy, video/board gaming and am the quartermaster
+                    for a
+                    local swim club concession. I sometimes dabble in crafty hobbies such as mailling, ring
+                    making,
                     electronics,
                     and am an enterprising scholar of history.
                 </p>
 
                 <p>I am currently refreshing my techncial skill set with the <a href="https://codingbootcamp.unh.edu/"
                         target="_blank"> UNH Full Stack Development Bootcamp</a>.
-                    My main motivation is to "keep up with the cool kids" since we live in a fast paced ever changing
+                    My main motivation is to "keep up with the cool kids" since we live in a fast paced ever
+                    changing
                     world. It is one leg of a three part technical strategy: full stack, serverless and machine
                     learning.
                 </p>
             </div>
         </div>
 
-
+        <!--Footer -->
         <div class="row">
-            <div class="col-lg-12">
-                <!--Footer -->
+            <div class="col-lg-12" style="background: #666666; color:#dddddd">
                 <div class="mx-auto" style="width: 400px">
                     &copy; 2018 Michael Galarneau, All Rights Reserved.
                 </div>
